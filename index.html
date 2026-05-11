@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Christopher McNeil | VMware & Cloud Consultant</title>
-  <meta name="description" content="Senior Systems Engineer, Marine Corps Veteran, and VMware-focused infrastructure consultant specializing in VCF, NSX, HCX, and enterprise modernization." />
+  <title>Christopher McNeil | Cloud Practice & VMware Consulting Leader</title>
+  <meta name="description" content="Cloud practice and VMware consulting leader focused on consultant management, delivery excellence, VCF, NSX, HCX, migration strategy, and enterprise infrastructure modernization." />
   <style>
     :root {
       --bg: #0b1220;
@@ -33,19 +33,14 @@
     }
 
     a { color: inherit; }
-    img { max-width: 100%; display: block; }
-
-    .container {
-      width: min(var(--max), calc(100% - 2rem));
-      margin: 0 auto;
-    }
+    .container { width: min(var(--max), calc(100% - 2rem)); margin: 0 auto; }
 
     .site-header {
       position: sticky;
       top: 0;
       z-index: 1000;
       backdrop-filter: blur(14px);
-      background: rgba(255,255,255,0.82);
+      background: rgba(255,255,255,0.86);
       border-bottom: 1px solid rgba(219, 227, 238, 0.8);
     }
 
@@ -73,29 +68,10 @@
       margin-top: 0.15rem;
     }
 
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 1.15rem;
-      flex-wrap: wrap;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: #1e293b;
-      font-weight: 600;
-      font-size: 0.96rem;
-    }
-
+    .nav-links { display: flex; align-items: center; gap: 1.15rem; flex-wrap: wrap; }
+    .nav-links a { text-decoration: none; color: #1e293b; font-weight: 600; font-size: 0.96rem; }
     .nav-links a:hover { color: var(--brand); }
-
-    .nav-cta {
-      padding: 0.8rem 1rem;
-      background: var(--brand);
-      color: #fff !important;
-      border-radius: 999px;
-      box-shadow: var(--shadow);
-    }
+    .nav-cta { padding: 0.8rem 1rem; background: var(--brand); color: #fff !important; border-radius: 999px; box-shadow: var(--shadow); }
 
     .hero {
       position: relative;
@@ -107,12 +83,7 @@
       padding: 5.5rem 0 4rem;
     }
 
-    .hero-grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 2rem;
-      align-items: center;
-    }
+    .hero-grid { display: grid; grid-template-columns: 1.18fr 0.82fr; gap: 2rem; align-items: center; }
 
     .eyebrow {
       display: inline-flex;
@@ -129,26 +100,15 @@
     }
 
     h1 {
-      font-size: clamp(2.4rem, 4vw, 4.5rem);
-      line-height: 1.02;
+      font-size: clamp(2.35rem, 4vw, 4.35rem);
+      line-height: 1.03;
       letter-spacing: -0.04em;
       margin: 0 0 1rem;
-      max-width: 10ch;
+      max-width: 11ch;
     }
 
-    .hero p.lead {
-      font-size: 1.08rem;
-      color: var(--muted);
-      max-width: 64ch;
-      margin: 0 0 1.6rem;
-    }
-
-    .hero-actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.9rem;
-      margin-bottom: 2rem;
-    }
+    .hero p.lead { font-size: 1.08rem; color: var(--muted); max-width: 68ch; margin: 0 0 1.6rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin-bottom: 2rem; }
 
     .btn {
       display: inline-flex;
@@ -162,35 +122,12 @@
       border: 1px solid transparent;
       transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
     }
-
     .btn:hover { transform: translateY(-2px); }
-    .btn-primary {
-      background: linear-gradient(135deg, var(--brand), var(--brand-dark));
-      color: #fff;
-      box-shadow: var(--shadow);
-    }
-    .btn-secondary {
-      background: #fff;
-      color: var(--text);
-      border-color: var(--line);
-    }
+    .btn-primary { background: linear-gradient(135deg, var(--brand), var(--brand-dark)); color: #fff; box-shadow: var(--shadow); }
+    .btn-secondary { background: #fff; color: var(--text); border-color: var(--line); }
 
-    .highlights {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.7rem;
-      margin-top: 0.5rem;
-    }
-
-    .pill {
-      padding: 0.65rem 0.9rem;
-      border-radius: 999px;
-      background: #fff;
-      border: 1px solid var(--line);
-      color: #334155;
-      font-weight: 600;
-      font-size: 0.9rem;
-    }
+    .highlights { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 0.5rem; }
+    .pill { padding: 0.65rem 0.9rem; border-radius: 999px; background: #fff; border: 1px solid var(--line); color: #334155; font-weight: 600; font-size: 0.9rem; }
 
     .hero-card {
       background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
@@ -199,73 +136,19 @@
       padding: 1.6rem;
       box-shadow: 0 25px 60px rgba(15, 23, 42, 0.26);
     }
+    .hero-card .label { color: rgba(255,255,255,0.7); font-size: 0.82rem; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 0.6rem; }
+    .hero-card h3 { margin: 0 0 0.75rem; font-size: 1.4rem; }
+    .hero-card p { color: rgba(255,255,255,0.8); margin: 0 0 1.2rem; }
+    .mini-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.85rem; }
+    .mini-card { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); border-radius: 18px; padding: 1rem; }
+    .mini-card strong { display: block; font-size: 1.5rem; margin-bottom: 0.25rem; }
 
-    .hero-card .label {
-      color: rgba(255,255,255,0.7);
-      font-size: 0.82rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      margin-bottom: 0.6rem;
-    }
+    .section { padding: 5rem 0; }
+    .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 1rem; margin-bottom: 1.8rem; }
+    .section-heading h2 { margin: 0; font-size: clamp(1.8rem, 3vw, 2.7rem); letter-spacing: -0.03em; }
+    .section-heading p { margin: 0; max-width: 58ch; color: var(--muted); }
 
-    .hero-card h3 {
-      margin: 0 0 0.75rem;
-      font-size: 1.4rem;
-    }
-
-    .hero-card p {
-      color: rgba(255,255,255,0.8);
-      margin: 0 0 1.2rem;
-    }
-
-    .mini-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 0.85rem;
-    }
-
-    .mini-card {
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 18px;
-      padding: 1rem;
-    }
-
-    .mini-card strong {
-      display: block;
-      font-size: 1.5rem;
-      margin-bottom: 0.25rem;
-    }
-
-    .section {
-      padding: 5rem 0;
-    }
-
-    .section-heading {
-      display: flex;
-      justify-content: space-between;
-      align-items: end;
-      gap: 1rem;
-      margin-bottom: 1.8rem;
-    }
-
-    .section-heading h2 {
-      margin: 0;
-      font-size: clamp(1.8rem, 3vw, 2.7rem);
-      letter-spacing: -0.03em;
-    }
-
-    .section-heading p {
-      margin: 0;
-      max-width: 56ch;
-      color: var(--muted);
-    }
-
-    .grid-3, .grid-4, .projects-grid, .services-grid, .cert-grid {
-      display: grid;
-      gap: 1.2rem;
-    }
-
+    .grid-3, .grid-4, .projects-grid, .services-grid, .cert-grid { display: grid; gap: 1.2rem; }
     .grid-3 { grid-template-columns: repeat(3, 1fr); }
     .grid-4 { grid-template-columns: repeat(4, 1fr); }
     .projects-grid { grid-template-columns: repeat(3, 1fr); }
@@ -279,141 +162,44 @@
       padding: 1.3rem;
       box-shadow: 0 16px 40px rgba(15, 23, 42, 0.05);
     }
+    .card h3, .card h4 { margin-top: 0; margin-bottom: 0.7rem; letter-spacing: -0.02em; }
+    .card p { color: var(--muted); margin: 0; }
 
-    .card h3, .card h4 {
-      margin-top: 0;
-      margin-bottom: 0.7rem;
-      letter-spacing: -0.02em;
-    }
+    .skill-list, .project-tags, .service-list { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 1rem; }
+    .tag { font-size: 0.85rem; font-weight: 700; color: #0f172a; background: var(--panel-soft); border: 1px solid var(--line); border-radius: 999px; padding: 0.5rem 0.75rem; }
 
-    .card p {
-      color: var(--muted);
-      margin: 0;
-    }
+    .project-card { display: flex; flex-direction: column; gap: 1rem; }
+    .project-meta { color: var(--brand-dark); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .project-result { margin-top: auto; padding-top: 0.75rem; border-top: 1px solid var(--line); font-weight: 700; color: #0f172a; }
 
-    .skill-list, .project-tags, .service-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.55rem;
-      margin-top: 1rem;
-    }
-
-    .tag {
-      font-size: 0.85rem;
-      font-weight: 700;
-      color: #0f172a;
-      background: var(--panel-soft);
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      padding: 0.5rem 0.75rem;
-    }
-
-    .project-card {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .project-meta {
-      color: var(--brand-dark);
-      font-weight: 800;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .project-result {
-      margin-top: auto;
-      padding-top: 0.75rem;
-      border-top: 1px solid var(--line);
-      font-weight: 700;
-      color: #0f172a;
-    }
-
-    .timeline {
-      display: grid;
-      gap: 1rem;
-    }
-
-    .timeline-item {
-      display: grid;
-      grid-template-columns: 160px 1fr;
-      gap: 1rem;
-      align-items: start;
-      padding: 1.1rem 0;
-      border-top: 1px solid var(--line);
-    }
-
+    .timeline { display: grid; gap: 1rem; }
+    .timeline-item { display: grid; grid-template-columns: 175px 1fr; gap: 1rem; align-items: start; padding: 1.1rem 0; border-top: 1px solid var(--line); }
     .timeline-item:first-child { border-top: 0; padding-top: 0; }
-    .timeline-year {
-      font-weight: 800;
-      color: var(--brand-dark);
-    }
+    .timeline-year { font-weight: 800; color: var(--brand-dark); }
 
-    .cta-section {
-      padding: 5rem 0 6rem;
-    }
-
-    .cta-panel {
-      background: linear-gradient(135deg, #0f172a 0%, #10243d 50%, #0f766e 130%);
+    .quote-panel {
+      background: #0f172a;
       color: #fff;
-      border-radius: 32px;
+      border-radius: 28px;
       padding: 2rem;
-      box-shadow: 0 30px 70px rgba(15, 23, 42, 0.28);
+      box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
     }
+    .quote-panel p { color: rgba(255,255,255,0.84); font-size: 1.05rem; }
 
-    .cta-panel p {
-      color: rgba(255,255,255,0.82);
-      max-width: 60ch;
-    }
+    .cta-section { padding: 5rem 0 6rem; }
+    .cta-panel { background: linear-gradient(135deg, #0f172a 0%, #10243d 50%, #0f766e 130%); color: #fff; border-radius: 32px; padding: 2rem; box-shadow: 0 30px 70px rgba(15, 23, 42, 0.28); }
+    .cta-panel p { color: rgba(255,255,255,0.82); max-width: 64ch; }
 
-    .footer {
-      padding: 2rem 0 3rem;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .footer-inner {
-      display: flex;
-      justify-content: space-between;
-      gap: 1rem;
-      flex-wrap: wrap;
-      border-top: 1px solid var(--line);
-      padding-top: 1.4rem;
-    }
+    .footer { padding: 2rem 0 3rem; color: var(--muted); font-size: 0.95rem; }
+    .footer-inner { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 1.4rem; }
 
     @media (max-width: 1024px) {
-      .hero-grid,
-      .projects-grid,
-      .services-grid,
-      .cert-grid,
-      .grid-3,
-      .grid-4 {
-        grid-template-columns: 1fr 1fr;
-      }
+      .hero-grid, .projects-grid, .services-grid, .cert-grid, .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; }
     }
-
     @media (max-width: 820px) {
-      .nav {
-        align-items: flex-start;
-        flex-direction: column;
-        padding: 1rem 0;
-      }
-
-      .hero-grid,
-      .projects-grid,
-      .services-grid,
-      .cert-grid,
-      .grid-3,
-      .grid-4,
-      .mini-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .timeline-item {
-        grid-template-columns: 1fr;
-      }
-
+      .nav { align-items: flex-start; flex-direction: column; padding: 1rem 0; }
+      .hero-grid, .projects-grid, .services-grid, .cert-grid, .grid-3, .grid-4, .mini-grid { grid-template-columns: 1fr; }
+      .timeline-item { grid-template-columns: 1fr; }
       h1 { max-width: 100%; }
       .section-heading { align-items: start; flex-direction: column; }
     }
@@ -424,13 +210,13 @@
     <div class="container nav">
       <a class="brand" href="#top">
         Christopher McNeil
-        <small>VMware • VCF • NSX • HCX Consultant</small>
+        <small>Cloud Practice Leadership • VMware Consulting • Delivery Excellence</small>
       </a>
       <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#technical">Technical</a>
+        <a href="#delivery">Delivery</a>
         <a href="#experience">Experience</a>
-        <a href="#certifications">Certifications</a>
         <a href="#services">Services</a>
         <a class="nav-cta" href="#contact">Contact</a>
       </nav>
@@ -441,152 +227,178 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <div class="eyebrow">Senior Systems Engineer • Marine Corps Veteran</div>
-          <h1>Infrastructure leadership built for real-world enterprise change.</h1>
+          <div class="eyebrow">Consulting Practice Leadership • Marine Corps Veteran</div>
+          <h1>Leading consultants, delivery, and technical outcomes.</h1>
           <p class="lead">
-            I help organizations modernize VMware environments, design and deploy VMware Cloud Foundation,
-            plan complex migrations, and reduce risk across networking, compute, identity, storage, and operations.
+            I bring together hands-on VMware infrastructure expertise and people-focused consulting leadership to build high-performing teams, align talent to client demand, manage delivery risk, and help customers move complex technology initiatives forward with confidence.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View Project Highlights</a>
-            <a class="btn btn-secondary" href="#contact">Let’s Connect</a>
+            <a class="btn btn-primary" href="#leadership">View Leadership Focus</a>
+            <a class="btn btn-secondary" href="#technical">View Technical Depth</a>
           </div>
           <div class="highlights">
-            <span class="pill">VMware Cloud Foundation</span>
-            <span class="pill">NSX & HCX Migration Strategy</span>
-            <span class="pill">Enterprise Infrastructure Leadership</span>
-            <span class="pill">Operational Modernization</span>
+            <span class="pill">Consultant Management</span>
+            <span class="pill">Utilization & Capacity Planning</span>
+            <span class="pill">VCF / NSX / HCX</span>
+            <span class="pill">Escalation Ownership</span>
+            <span class="pill">Delivery Quality</span>
           </div>
         </div>
 
         <aside class="hero-card" aria-label="Professional summary card">
-          <div class="label">At a glance</div>
-          <h3>Trusted for design, migration, and execution.</h3>
+          <div class="label">Leadership profile</div>
+          <h3>Technical leader with a delivery-first mindset.</h3>
           <p>
-            From greenfield VCF deployments to workload migration planning and day-two operations, I focus on solutions that are technically sound and practical to operate.
+            Comfortable working with consultants, project managers, customers, sales, and technical stakeholders to keep engagements staffed, on track, and aligned to the outcome the customer is paying for.
           </p>
           <div class="mini-grid">
             <div class="mini-card">
-              <strong>20+</strong>
-              <span>Years in infrastructure and engineering</span>
-            </div>
-            <div class="mini-card">
-              <strong>50+</strong>
-              <span>Projects supported across platforms</span>
-            </div>
-            <div class="mini-card">
-              <strong>10+</strong>
-              <span>Technical certifications and specializations</span>
+              <strong>18+</strong>
+              <span>Years in infrastructure and technical leadership</span>
             </div>
             <div class="mini-card">
               <strong>VCF</strong>
-              <span>Focused architecture and migration work</span>
+              <span>Cloud Foundation design and migration focus</span>
+            </div>
+            <div class="mini-card">
+              <strong>People</strong>
+              <span>Coaching, accountability, and team development</span>
+            </div>
+            <div class="mini-card">
+              <strong>Ops</strong>
+              <span>Utilization, capacity, delivery health, and risk</span>
             </div>
           </div>
         </aside>
       </div>
     </section>
 
-    <section class="section" id="skills">
+    <section class="section" id="leadership">
       <div class="container">
         <div class="section-heading">
-          <div>
-            <h2>Core skills</h2>
-          </div>
-          <p>
-            This section is designed to quickly show technical depth while keeping the wording recruiter-friendly.
-          </p>
+          <div><h2>Consulting leadership focus</h2></div>
+          <p>Positioned for management of consultants, practice performance, delivery health, and customer-facing accountability.</p>
         </div>
         <div class="grid-3">
           <article class="card">
-            <h3>Cloud foundation & virtualization</h3>
-            <p>Architecture, deployment, lifecycle planning, workload domains, cluster design, and operational alignment for VMware-focused environments.</p>
+            <h3>Consultant management</h3>
+            <p>Lead, coach, and support consultants across active engagements by setting expectations, tracking performance, removing blockers, and ensuring the right behaviors show up in front of the customer.</p>
             <div class="skill-list">
-              <span class="tag">VCF</span>
-              <span class="tag">vSphere</span>
-              <span class="tag">ESXi</span>
-              <span class="tag">vCenter</span>
+              <span class="tag">Coaching</span>
+              <span class="tag">Accountability</span>
+              <span class="tag">Performance Feedback</span>
             </div>
           </article>
           <article class="card">
-            <h3>Networking & migration</h3>
-            <p>Design and execution support for NSX, HCX, migration waves, bridging strategy, and transitional connectivity for complex workloads.</p>
+            <h3>Staffing & capacity planning</h3>
+            <p>Align consultant skills, availability, certifications, and growth goals to client demand while balancing utilization, delivery quality, and long-term practice health.</p>
             <div class="skill-list">
-              <span class="tag">NSX</span>
-              <span class="tag">HCX</span>
-              <span class="tag">Network Extension</span>
-              <span class="tag">RAV / Bulk</span>
+              <span class="tag">Utilization</span>
+              <span class="tag">Forecasting</span>
+              <span class="tag">Resource Alignment</span>
             </div>
           </article>
           <article class="card">
-            <h3>Operations & enterprise infrastructure</h3>
-            <p>Windows Server, Active Directory, storage, certificates, operational readiness, troubleshooting, and infrastructure team leadership.</p>
+            <h3>Escalation ownership</h3>
+            <p>Step into delivery issues early, assess facts, protect the customer relationship, support the consultant where appropriate, and drive a corrective plan with clear communication.</p>
             <div class="skill-list">
-              <span class="tag">Windows Server</span>
-              <span class="tag">Active Directory</span>
-              <span class="tag">Storage</span>
-              <span class="tag">Troubleshooting</span>
+              <span class="tag">Customer Trust</span>
+              <span class="tag">Risk Management</span>
+              <span class="tag">Corrective Action</span>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="projects">
+    <section class="section" id="technical">
       <div class="container">
         <div class="section-heading">
-          <div>
-            <h2>Selected project highlights</h2>
-          </div>
-          <p>
-            Replace these examples with your own finalized customer-safe project summaries. Keep the focus on business value and technical complexity.
-          </p>
+          <div><h2>Technical credibility</h2></div>
+          <p>Strong enough technically to guide consultants, challenge assumptions, and represent delivery decisions with customers and internal stakeholders.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card">
+            <h3>VMware Cloud Foundation</h3>
+            <p>Experience supporting VCF design, greenfield planning, workload domain strategy, lifecycle considerations, and operational readiness for enterprise environments.</p>
+            <div class="skill-list">
+              <span class="tag">VCF</span>
+              <span class="tag">vSphere</span>
+              <span class="tag">Lifecycle</span>
+              <span class="tag">Workload Domains</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>NSX & HCX migration strategy</h3>
+            <p>Ability to guide conversations around network extension, segment migration, bridging options, RAV vs. Bulk migration, cutover sequencing, and risk reduction.</p>
+            <div class="skill-list">
+              <span class="tag">NSX</span>
+              <span class="tag">HCX</span>
+              <span class="tag">RAV / Bulk</span>
+              <span class="tag">L2 Extension</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Enterprise infrastructure</h3>
+            <p>Broad infrastructure background across Windows Server, Active Directory, storage, virtualization, certificates, networking coordination, and day-two operations.</p>
+            <div class="skill-list">
+              <span class="tag">Windows Server</span>
+              <span class="tag">AD</span>
+              <span class="tag">Storage</span>
+              <span class="tag">Operations</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="delivery">
+      <div class="container">
+        <div class="section-heading">
+          <div><h2>Delivery and practice performance</h2></div>
+          <p>A practice manager has to manage the business side of consulting without losing sight of technical delivery quality.</p>
         </div>
         <div class="projects-grid">
           <article class="card project-card">
             <div>
-              <div class="project-meta">Greenfield build</div>
-              <h3>VCF 9 management domain and workload domain design</h3>
-              <p>Supported planning and deployment preparation for a new VMware Cloud Foundation environment, including migration sequencing, prerequisites, and operational handoff considerations.</p>
+              <div class="project-meta">Practice health</div>
+              <h3>Utilization, capacity, and performance visibility</h3>
+              <p>Track consultant availability, billable work, bench time, skills alignment, and engagement health to make informed staffing and delivery decisions.</p>
               <div class="project-tags">
-                <span class="tag">VCF 9</span>
-                <span class="tag">Greenfield</span>
-                <span class="tag">Design</span>
-                <span class="tag">Deploy</span>
+                <span class="tag">Utilization</span>
+                <span class="tag">Capacity</span>
+                <span class="tag">Forecasting</span>
               </div>
             </div>
-            <div class="project-result">Outcome: clearer deployment readiness and lower implementation friction.</div>
+            <div class="project-result">Focus: keep the team productive without sacrificing quality or morale.</div>
           </article>
 
           <article class="card project-card">
             <div>
-              <div class="project-meta">Migration strategy</div>
-              <h3>HCX migration planning for legacy-to-modernized VMware platforms</h3>
-              <p>Developed migration approaches for large VM populations, with attention to network extension, bridging hosts, RAV vs. Bulk decisions, and downtime reduction for sensitive workloads.</p>
+              <div class="project-meta">Delivery quality</div>
+              <h3>Engagement oversight and customer confidence</h3>
+              <p>Partner with PMs and consultants to validate scope, identify risks, resolve blockers, and ensure the customer sees consistent progress and professional execution.</p>
               <div class="project-tags">
-                <span class="tag">HCX</span>
-                <span class="tag">NSX</span>
-                <span class="tag">Migration Waves</span>
+                <span class="tag">PM Alignment</span>
+                <span class="tag">Risk Review</span>
+                <span class="tag">Customer Communication</span>
               </div>
             </div>
-            <div class="project-result">Outcome: better risk alignment for phased migration execution.</div>
+            <div class="project-result">Focus: make problems visible early and resolve them before they become account issues.</div>
           </article>
 
           <article class="card project-card">
             <div>
-              <div class="project-meta">Identity integration</div>
-              <h3>Okta and enterprise platform integration architecture</h3>
-              <p>Worked through real-world complexity around identity provider integration, proxy constraints, and API traffic design to support secure access and workable operational patterns.</p>
+              <div class="project-meta">Capability growth</div>
+              <h3>Consultant development and technical enablement</h3>
+              <p>Build practice capability by identifying skill gaps, supporting certification paths, pairing consultants with stronger mentors, and aligning enablement to customer demand.</p>
               <div class="project-tags">
-                <span class="tag">Okta</span>
-                <span class="tag">API Design</span>
-                <span class="tag">Security</span>
-                <span class="tag">External IDP</span>
-                <span class="tag">SSO</span>
-                <span class="tag">MFA</span>
+                <span class="tag">Enablement</span>
+                <span class="tag">Certifications</span>
+                <span class="tag">Mentorship</span>
               </div>
             </div>
-            <div class="project-result">Outcome: improved access design and more maintainable architecture decisions.</div>
+            <div class="project-result">Focus: grow the team’s capability while improving delivery consistency.</div>
           </article>
         </div>
       </div>
@@ -595,64 +407,33 @@
     <section class="section" id="experience">
       <div class="container">
         <div class="section-heading">
-          <div>
-            <h2>Experience snapshot</h2>
-          </div>
-          <p>
-            I work with organizations to design, migrate, and stabilize VMware environments—especially around VCF, NSX, and HCX. Most of my time is spent helping teams navigate real-world complexity, reduce risk during migrations, and build solutions that actually work day-to-day.
-          </p>
+          <div><h2>Experience snapshot</h2></div>
+          <p>A concise leadership story that blends consultant management, technical credibility, and military leadership foundation.</p>
         </div>
         <div class="card">
           <div class="timeline">
             <div class="timeline-item">
-              <div class="timeline-year">Current focus</div>
+              <div class="timeline-year">Practice leadership</div>
               <div>
-                <h3>Senior systems engineering and VMware consulting</h3>
-                <p>Architecture, implementation planning, migration design, technical leadership, and customer-facing delivery across VMware-centric infrastructure programs.</p>
+                <h3>Consultant management, staffing alignment, and delivery oversight</h3>
+                <p>Experienced in leading technical professionals, setting clear expectations, managing performance conversations, supporting PM alignment, and ensuring consultants are positioned for success on customer engagements.</p>
               </div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-year">Prior experience</div>
+              <div class="timeline-year">Technical leadership</div>
               <div>
-                <h3>Enterprise infrastructure operations and modernization</h3>
-                <p>Leadership and technical execution across virtualization, Windows platforms, storage, identity, operations, and cross-team coordination.</p>
+                <h3>VMware, VCF, NSX, HCX, and enterprise infrastructure</h3>
+                <p>Hands-on infrastructure background provides the technical credibility to guide delivery teams, evaluate risk, challenge weak assumptions, and communicate complex solutions clearly to customers and leadership.</p>
               </div>
             </div>
             <div class="timeline-item">
-              <div class="timeline-year">Foundation</div>
+              <div class="timeline-year">Military foundation</div>
               <div>
-                <h3>Marine Corps Veteran</h3>
-                <p>Mission-first mindset, disciplined execution, and practical leadership carried forward into infrastructure engineering and consulting work.</p>
+                <h3>Marine Corps Veteran and former Staff NCO</h3>
+                <p>Leadership foundation built on accountability, mission focus, team development, and calm decision-making under pressure—carried forward into consulting operations and customer delivery.</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="certifications">
-      <div class="container">
-        <div class="section-heading">
-          <div>
-            <h2>Certifications</h2>
-          </div>
-          <p>
-            Add your actual current certifications here. This layout works well for VMware badges, cloud certs, and role-based credentials.
-          </p>
-        </div>
-        <div class="cert-grid">
-          <article class="card">
-            <h3>VMware certifications</h3>
-            <p>VCP-DCV, VCP-NV, VCP-VCF 5&9, VSP</p>
-          </article>
-          <article class="card">
-            <h3>Infrastructure & platform</h3>
-            <p>Include relevant certifications for Windows, security, storage, cloud, or other platforms that strengthen your profile.</p>
-          </article>
-          <article class="card">
-            <h3>Professional development</h3>
-            <p>Use this card for specialized training, military leadership development, or notable technical education items.</p>
-          </article>
         </div>
       </div>
     </section>
@@ -660,26 +441,33 @@
     <section class="section" id="services">
       <div class="container">
         <div class="section-heading">
-          <div>
-            <h2>Services</h2>
-          </div>
-          <p>
-            These can support consulting work, side business positioning, or a simple professional landing page.
-          </p>
+          <div><h2>Services and value areas</h2></div>
+          <p>Use this section for consulting, management conversations, or positioning yourself as both a technical and delivery leader.</p>
         </div>
         <div class="services-grid">
           <article class="card">
-            <h3>VCF design review</h3>
-            <p>Architecture validation, readiness review, risks, assumptions, and technical alignment before deployment or migration begins.</p>
+            <h3>Practice operations support</h3>
+            <p>Utilization review, skills mapping, consultant readiness, staffing alignment, and delivery health tracking for cloud and infrastructure consulting teams.</p>
           </article>
           <article class="card">
-            <h3>Migration planning workshop</h3>
-            <p>Wave planning, HCX method selection, networking transition strategy, dependency review, and operational checkpoints.</p>
+            <h3>VMware modernization planning</h3>
+            <p>VCF readiness, NSX and HCX migration strategy, phased cutover planning, risk review, and customer-facing technical communication.</p>
           </article>
           <article class="card">
-            <h3>Infrastructure health check</h3>
-            <p>Targeted review of environment health, operational gaps, certificate and password concerns, and improvement opportunities.</p>
+            <h3>Escalation and recovery planning</h3>
+            <p>Support for struggling engagements through fact finding, customer communication, consultant coaching, recovery planning, and clear ownership of next steps.</p>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="quote-panel">
+          <h2>Leadership approach</h2>
+          <p>
+            My approach is simple: put the right consultant in the right seat, set clear expectations early, inspect delivery health consistently, address issues directly, and never lose sight of the customer outcome. Strong technical teams need structure, trust, accountability, and leaders who understand both the work and the business behind it.
+          </p>
         </div>
       </div>
     </section>
@@ -687,15 +475,16 @@
     <section class="cta-section" id="contact">
       <div class="container">
         <div class="cta-panel">
-          <h2>Let’s build something solid.</h2>
+          <h2>Let’s build stronger teams and better delivery outcomes.</h2>
           <p>
-            Whether you need help shaping a VMware modernization effort, reviewing a migration approach, or positioning your infrastructure strategy for the next phase, this section can point people to the best way to reach you.
+            Whether the need is VMware modernization, consultant team leadership, practice operations, or customer-facing delivery recovery, I bring a mix of technical depth, field experience, and people-first leadership.
           </p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="chmacblog@gmail.com">Email Me</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/ccmcneil/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-primary" href="mailto:you@example.com">Email Me</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://calendly.com" target="_blank" rel="noreferrer">Schedule a Call</a>
           </div>
-          <p><strong></strong></p>
+          <p><strong>Reminder:</strong> Replace the placeholder email, LinkedIn, and calendar links before publishing.</p>
         </div>
       </div>
     </section>
@@ -704,7 +493,7 @@
   <footer class="footer">
     <div class="container footer-inner">
       <div>© <span id="year"></span> Christopher McNeil. All rights reserved.</div>
-      <div>Built as a static GitHub Pages portfolio site.</div>
+      <div>Cloud Practice Leadership • VMware Consulting • Delivery Excellence</div>
     </div>
   </footer>
 
